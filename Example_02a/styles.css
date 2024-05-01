@@ -1,0 +1,33 @@
+.wrapper{
+    background-color:lightcyan;
+    padding: 3rem;
+    color : black;
+    text-align: center;  
+}
+
+.menu{
+    background-color : white;
+    padding :0.5rem;
+    border-radius: 2rem;
+}
+
+.menu a {
+    background-color: lightgray;
+    border-radius: 2rem;
+    padding : 0.6rem 1.5rem;
+    color : black;
+    font-size: 0.9rem;
+    text-decoration: none; /* a태그 밑줄없어짐 */
+}
+
+
+.menu a.active{
+    background-color: aquamarine;
+    color : white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;   /* justify-between      */
+    /* justify-content: flex-start;    default값 */
+} 

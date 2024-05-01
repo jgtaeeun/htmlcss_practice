@@ -1,0 +1,23 @@
+.wrapper{
+    padding: 1rem;
+    background-color: aliceblue;
+    color :  black;
+    text-align: center;
+    
+}
+
+h2{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.logos{
+  margin-top: 1.5rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.logos img{
+     height: 3rem;
+
+}

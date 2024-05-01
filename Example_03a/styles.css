@@ -1,0 +1,32 @@
+.container{
+    margin:1rem 0;
+    /* background-color: aqua;  */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /*모바일처럼 화면크기가 작을 때*/
+}
+
+.team-profile{
+    text-align: center; /* text뿐만 아니라 하위애들도 먹힌다.  */
+
+    /* background-color: aliceblue; */
+   
+}
+
+.team-img { 
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: top;
+    
+}
+
+.team-name{
+    margin: 1rem 0 1rem;
+}
+
+.team-role{
+     color: lightgray;
+     margin: 0 1rem;
+}

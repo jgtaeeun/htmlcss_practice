@@ -1,0 +1,28 @@
+.quote{
+    background-color: lightblue;
+    margin : 1rem;
+    padding : 1.5rem;
+    border-radius: 1rem; 
+
+}
+ 
+.container{
+    display: flex;
+}
+
+.quote p{
+    margin : 0 0 0.5rem; 
+    font-family: serif; 
+    font-style: italic; /*글자기울임 */
+    font-size: 1.2rem; 
+     color:black; 
+
+}
+
+.quote span{
+   
+    font-family: serif; 
+    font-size: 1.2rem;
+    color:gray;
+
+}   
